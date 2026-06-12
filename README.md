@@ -63,7 +63,7 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 | [AWS Bedrock](https://aws.amazon.com/bedrock/) | Multi-model marketplace | Token-based | Proprietary |
 | [Azure AI](https://azure.microsoft.com/ai) | OpenAI + open models | Token-based | Proprietary |
 | [Cloudflare Workers AI](https://workers.cloudflare.com/) | Edge AI inference | Token-based | Proprietary |
-| [Hugging Face](https://huggingface.co/) | Open model hub + inference | Free/Paid | Open platform |
+| [Hugging Face][huggingface] | Open model hub + inference | Free/Paid | Open platform |
 
 ---
 
@@ -413,5 +413,6 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 Contributions are welcome! Please read the [contribution guidelines][contributing] first.
 
 [contributing]: CONTRIBUTING.md
+[huggingface]: https://huggingface.co/
 [perplexity]: https://www.perplexity.ai/
 [stability]: https://stability.ai/
