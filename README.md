@@ -73,18 +73,18 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 
 | Name | Parameters | License | Best For |
 |------|-----------|---------|----------|
-| [Llama 3.1](https://huggingface.co/meta-llama) | 8B, 70B, 405B | Llama 3.1 Community | General purpose |
-| [Llama 3.2 Vision](https://huggingface.co/meta-llama) | 11B, 90B | Llama 3.1 Community | Multimodal |
-| [Mistral Large 2](https://huggingface.co/mistralai) | 123B | Apache 2.0 | Reasoning, code |
-| [Mixtral 8x22B](https://huggingface.co/mistralai) | 141B (39B active) | Apache 2.0 | Efficient MoE |
-| [Qwen 2.5](https://huggingface.co/Qwen) | 0.5B - 72B | Apache 2.0 | Multilingual, code |
-| [Qwen 2.5 Coder](https://huggingface.co/Qwen) | 7B, 32B | Apache 2.0 | Code generation |
-| [DeepSeek-V3](https://huggingface.co/deepseek-ai) | 671B (37B active) | MIT | Reasoning, coding |
-| [DeepSeek-R1](https://huggingface.co/deepseek-ai) | 1.5B - 671B | MIT | Chain-of-thought |
-| [Phi-3.5](https://huggingface.co/microsoft) | 3.8B, 14B | MIT | Small, efficient |
-| [Phi-4](https://huggingface.co/microsoft) | 14B | MIT | Reasoning, math |
-| [Gemma 2](https://huggingface.co/google) | 2B, 9B, 27B | Gemma License | Lightweight |
-| [Gemma 3](https://huggingface.co/google) | 1B - 27B | Gemma License | Multimodal |
+| [Llama 3.1][huggingface-meta-llama] | 8B, 70B, 405B | Llama 3.1 Community | General purpose |
+| [Llama 3.2 Vision][huggingface-meta-llama] | 11B, 90B | Llama 3.1 Community | Multimodal |
+| [Mistral Large 2][huggingface-mistralai] | 123B | Apache 2.0 | Reasoning, code |
+| [Mixtral 8x22B][huggingface-mistralai] | 141B (39B active) | Apache 2.0 | Efficient MoE |
+| [Qwen 2.5][huggingface-qwen] | 0.5B - 72B | Apache 2.0 | Multilingual, code |
+| [Qwen 2.5 Coder][huggingface-qwen] | 7B, 32B | Apache 2.0 | Code generation |
+| [DeepSeek-V3][huggingface-deepseek-ai] | 671B (37B active) | MIT | Reasoning, coding |
+| [DeepSeek-R1][huggingface-deepseek-ai] | 1.5B - 671B | MIT | Chain-of-thought |
+| [Phi-3.5][huggingface-microsoft] | 3.8B, 14B | MIT | Small, efficient |
+| [Phi-4][huggingface-microsoft] | 14B | MIT | Reasoning, math |
+| [Gemma 2][huggingface-google] | 2B, 9B, 27B | Gemma License | Lightweight |
+| [Gemma 3][huggingface-google] | 1B - 27B | Gemma License | Multimodal |
 | [Command R+](https://huggingface.co/CohereForAI) | 104B | CC-BY-NC | RAG, agents |
 | [Yi-1.5](https://huggingface.co/01-ai) | 6B - 34B | Apache 2.0 | Multilingual |
 | [InternLM 2.5](https://huggingface.co/internlm) | 7B, 20B | Apache 2.0 | Chinese, reasoning |
@@ -102,7 +102,7 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 
 | Name | Description | Platform | License |
 |------|-------------|----------|---------|
-| [GitHub Copilot](https://github.com/features/copilot) | AI pair programmer | VS Code, JetBrains, CLI | Proprietary |
+| [GitHub Copilot][github-copilot] | AI pair programmer | VS Code, JetBrains, CLI | Proprietary |
 | [Cursor](https://cursor.sh/) | AI-first code editor | Desktop (Mac/Win/Linux) | Proprietary |
 | [Windsurf](https://windsurf.com/) | AI-native IDE with Cascade | Desktop | Proprietary |
 | [Continue](https://continue.dev/) | Open-source AI code assistant | VS Code, JetBrains | Apache 2.0 |
@@ -307,7 +307,7 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 
 | Name | Description | License |
 |------|-------------|---------|
-| [GitHub Copilot Workspace](https://github.com/features/copilot#workspace) | AI-native dev environment | Proprietary |
+| [GitHub Copilot Workspace][github-copilot-workspace] | AI-native dev environment | Proprietary |
 | [MLflow](https://mlflow.org/) | ML lifecycle management | Apache 2.0 |
 | [Ray](https://www.ray.io/) | Distributed AI computing | Apache 2.0 |
 | [Modal](https://modal.com/) | Serverless AI infrastructure | Proprietary |
@@ -381,7 +381,7 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 | [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) | Conversational safety | Apache 2.0 |
 | [Lakera Guard](https://www.lakera.ai/) | AI security platform | Proprietary |
 | [Rebuff](https://github.com/withrebuff/rebuff) | Prompt injection detection | MIT |
-| [Llama Guard](https://huggingface.co/meta-llama) | Safety classifier | Llama Community |
+| [Llama Guard][huggingface-meta-llama] | Safety classifier | Llama Community |
 | [Aegis](https://github.com/NVIDIA/aegis) | Content safety | Apache 2.0 |
 | [Moderate Content](https://moderatecontent.com/) | Content moderation API | Proprietary |
 
@@ -414,5 +414,13 @@ Contributions are welcome! Please read the [contribution guidelines][contributin
 
 [contributing]: CONTRIBUTING.md
 [huggingface]: https://huggingface.co/
+[huggingface-meta-llama]: https://huggingface.co/meta-llama
+[huggingface-mistralai]: https://huggingface.co/mistralai
+[huggingface-qwen]: https://huggingface.co/Qwen
+[huggingface-deepseek-ai]: https://huggingface.co/deepseek-ai
+[huggingface-microsoft]: https://huggingface.co/microsoft
+[huggingface-google]: https://huggingface.co/google
+[github-copilot]: https://github.com/features/copilot
+[github-copilot-workspace]: https://github.com/features/copilot#workspace
 [perplexity]: https://www.perplexity.ai/
 [stability]: https://stability.ai/
