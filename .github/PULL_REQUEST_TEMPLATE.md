@@ -1,3 +1,5 @@
+# Pull Request Template
+
 ## Adding a New Tool
 
 **Tool Name:**

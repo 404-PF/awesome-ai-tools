@@ -15,30 +15,30 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 ---
 
 > [!NOTE]
-> **Contributions welcome!** Read the [contribution guidelines](CONTRIBUTING.md) first.
+> **Contributions welcome!** Read the [contribution guidelines][contributing] first.
 
 ---
 
 ## Contents
 
-- [LLM APIs & Providers](#-llm-apis--providers)
-- [Open-Source LLMs](#-open-source-llms)
-- [AI Code Assistants](#-ai-code-assistants)
-- [AI Agents & Orchestration](#-ai-agents--orchestration)
-- [RAG & Vector Databases](#-rag--vector-databases)
-- [AI Image Generation](#-ai-image-generation)
-- [AI Video Generation](#-ai-video-generation)
-- [AI Audio & Voice](#-ai-audio--voice)
-- [AI Writing & Content](#-ai-writing--content)
-- [AI Chatbots & Assistants](#-ai-chatbots--assistants)
-- [Local & Self-Hosted AI](#-local--self-hosted-ai)
-- [AI Data & Analytics](#-ai-data--analytics)
-- [AI for DevOps & MLOps](#-ai-for-devops--mlops)
-- [AI Frameworks & Libraries](#-ai-frameworks--libraries)
-- [AI Learning & Education](#-ai-learning--education)
-- [AI Monitoring & Observability](#-ai-monitoring--observability)
-- [AI Safety & Ethics](#-ai-safety--ethics)
-- [Miscellaneous](#miscellaneous)
+- [🧠 LLM APIs & Providers](#-llm-apis--providers)
+- [🤗 Open-Source LLMs](#-open-source-llms)
+- [💻 AI Code Assistants](#-ai-code-assistants)
+- [🤖 AI Agents & Orchestration](#-ai-agents--orchestration)
+- [📚 RAG & Vector Databases](#-rag--vector-databases)
+- [🎨 AI Image Generation](#-ai-image-generation)
+- [🎬 AI Video Generation](#-ai-video-generation)
+- [🎙️ AI Audio & Voice](#️-ai-audio--voice)
+- [✍️ AI Writing & Content](#️-ai-writing--content)
+- [💬 AI Chatbots & Assistants](#-ai-chatbots--assistants)
+- [🏠 Local & Self-Hosted AI](#-local--self-hosted-ai)
+- [📊 AI Data & Analytics](#-ai-data--analytics)
+- [⚙️ AI for DevOps & MLOps](#️-ai-for-devops--mlops)
+- [🛠️ AI Frameworks & Libraries](#️-ai-frameworks--libraries)
+- [📚 AI Learning & Education](#-ai-learning--education-1)
+- [🔍 AI Monitoring & Observability](#-ai-monitoring--observability)
+- [🛡️ AI Safety & Ethics](#️-ai-safety--ethics)
+- [🔮 Miscellaneous](#-miscellaneous)
 
 ---
 
@@ -410,10 +410,6 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 
 ## Contributing
 
-Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
+Contributions are welcome! Please read the [contribution guidelines][contributing] first.
 
-## License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, the contributors have waived all copyright and related or neighboring rights to this work.
+[contributing]: CONTRIBUTING.md
