@@ -35,7 +35,7 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 - [📊 AI Data & Analytics](#-ai-data--analytics)
 - [⚙️ AI for DevOps & MLOps](#️-ai-for-devops--mlops)
 - [🛠️ AI Frameworks & Libraries](#️-ai-frameworks--libraries)
-- [📚 AI Learning & Education](#-ai-learning--education-1)
+- [📚 AI Learning & Education](#-ai-learning--education)
 - [🔍 AI Monitoring & Observability](#-ai-monitoring--observability)
 - [🛡️ AI Safety & Ethics](#️-ai-safety--ethics)
 - [🔮 Miscellaneous](#-miscellaneous)
@@ -58,7 +58,7 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 | [Together AI](https://together.ai/) | Open-source model hosting | Token-based | Proprietary |
 | [Replicate](https://replicate.com/) | Run any model via API | Per-second | Proprietary |
 | [Fireworks AI](https://fireworks.ai/) | Fast inference platform | Token-based | Proprietary |
-| [Perplexity](https://www.perplexity.ai/) | AI search + API | Token-based | Proprietary |
+| [Perplexity][perplexity] | AI search + API | Token-based | Proprietary |
 | [Cohere](https://cohere.com/) | Enterprise NLP APIs | Token-based | Proprietary |
 | [AWS Bedrock](https://aws.amazon.com/bedrock/) | Multi-model marketplace | Token-based | Proprietary |
 | [Azure AI](https://azure.microsoft.com/ai) | OpenAI + open models | Token-based | Proprietary |
@@ -171,7 +171,7 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 
 | Name | Description | Access | License |
 |------|-------------|--------|---------|
-| [Stable Diffusion 3.5](https://stability.ai/) | Open-source image generation | Self-host/API | Stability AI Community |
+| [Stable Diffusion 3.5][stability] | Open-source image generation | Self-host/API | Stability AI Community |
 | [FLUX](https://blackforestlabs.ai/) | High-quality open model | Self-host | Apache 2.0 (dev) |
 | [ComfyUI](https://github.com/comfyanonymous/ComfyUI) | Node-based SD workflow | Self-host | GPL-3.0 |
 | [Fooocus](https://github.com/lllyasviel/Fooocus) | Simplified SD interface | Self-host | GPL-3.0 |
@@ -197,7 +197,7 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 | [Pika](https://pika.art/) | Text-to-video, effects | Web | Proprietary |
 | [Sora](https://openai.com/sora) | OpenAI video model | Web | Proprietary |
 | [Luma Dream Machine](https://lumalabs.ai/) | Fast video generation | Web | Proprietary |
-| [Stable Video](https://stability.ai/) | Open-source video diffusion | Self-host | Stability Community |
+| [Stable Video][stability] | Open-source video diffusion | Self-host | Stability Community |
 | [CogVideo](https://github.com/THUDM/CogVideo) | Open-source text-to-video | Self-host | Apache 2.0 |
 | [Mochi](https://github.com/genmoai/mochi) | Open video generation | Self-host | Apache 2.0 |
 | [HeyGen](https://www.heygen.com/) | AI avatar videos | Web | Proprietary |
@@ -257,7 +257,7 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 | [ChatGPT](https://chat.openai.com/) | OpenAI's chatbot | Web/App | Proprietary |
 | [Claude](https://claude.ai/) | Anthropic's assistant | Web/App | Proprietary |
 | [Gemini](https://gemini.google.com/) | Google AI assistant | Web/App | Proprietary |
-| [Perplexity](https://www.perplexity.ai/) | AI search engine | Web/App | Proprietary |
+| [Perplexity][perplexity] | AI search engine | Web/App | Proprietary |
 | [Poe](https://poe.com/) | Multi-model chatbot | Web/App | Proprietary |
 | [Open WebUI](https://github.com/open-webui/open-webui) | Self-hosted ChatGPT UI | Self-host | BSD-3-Clause |
 | [LibreChat](https://github.com/danny-avila/LibreChat) | Open-source chat UI | Self-host | MIT |
@@ -413,3 +413,5 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 Contributions are welcome! Please read the [contribution guidelines][contributing] first.
 
 [contributing]: CONTRIBUTING.md
+[perplexity]: https://www.perplexity.ai/
+[stability]: https://stability.ai/
