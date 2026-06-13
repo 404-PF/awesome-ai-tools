@@ -14,7 +14,7 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 
 ---
 
-> [!NOTE]
+> \\[!NOTE\]
 > **Contributions welcome!** Read the [contribution guidelines][contributing] first.
 
 ---
@@ -58,7 +58,7 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 | [Together AI](https://together.ai/) | Open-source model hosting | Token-based | Proprietary |
 | [Replicate](https://replicate.com/) | Run any model via API | Per-second | Proprietary |
 | [Fireworks AI](https://fireworks.ai/) | Fast inference platform | Token-based | Proprietary |
-| [Perplexity][perplexity] | AI search + API | Token-based | Proprietary |
+| [Perplexity] | AI search + API | Token-based | Proprietary |
 | [Cohere](https://cohere.com/) | Enterprise NLP APIs | Token-based | Proprietary |
 | [AWS Bedrock](https://aws.amazon.com/bedrock/) | Multi-model marketplace | Token-based | Proprietary |
 | [Azure AI](https://azure.microsoft.com/ai) | OpenAI + open models | Token-based | Proprietary |
@@ -257,7 +257,7 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 | [ChatGPT](https://chat.openai.com/) | OpenAI's chatbot | Web/App | Proprietary |
 | [Claude](https://claude.ai/) | Anthropic's assistant | Web/App | Proprietary |
 | [Gemini](https://gemini.google.com/) | Google AI assistant | Web/App | Proprietary |
-| [Perplexity][perplexity] | AI search engine | Web/App | Proprietary |
+| [Perplexity] | AI search engine | Web/App | Proprietary |
 | [Poe](https://poe.com/) | Multi-model chatbot | Web/App | Proprietary |
 | [Open WebUI](https://github.com/open-webui/open-webui) | Self-hosted ChatGPT UI | Self-host | BSD-3-Clause |
 | [LibreChat](https://github.com/danny-avila/LibreChat) | Open-source chat UI | Self-host | MIT |
