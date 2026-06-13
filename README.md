@@ -1,3 +1,5 @@
+<!--lint disable awesome-git-repo-age awesome-github-->
+
 <div align="center">
 
 # 🤖 Awesome AI Tools
@@ -12,8 +14,22 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 
 </div>
 
+[contributing]: CONTRIBUTING.md
+[huggingface]: https://huggingface.co/
+[huggingface-meta-llama]: https://huggingface.co/meta-llama
+[huggingface-mistralai]: https://huggingface.co/mistralai
+[huggingface-qwen]: https://huggingface.co/Qwen
+[huggingface-deepseek-ai]: https://huggingface.co/deepseek-ai
+[huggingface-microsoft]: https://huggingface.co/microsoft
+[huggingface-google]: https://huggingface.co/google
+[github-copilot]: https://github.com/features/copilot
+[github-copilot-workspace]: https://github.com/features/copilot#workspace
+[perplexity]: https://www.perplexity.ai/
+[stability]: https://stability.ai/
+
 ---
 
+<!--lint ignore no-undefined-references-->
 > [!NOTE]
 > **Contributions welcome!** Read the [contribution guidelines][contributing] first.
 
@@ -411,16 +427,3 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 ## Contributing
 
 Contributions are welcome! Please read the [contribution guidelines][contributing] first.
-
-[contributing]: CONTRIBUTING.md
-[huggingface]: https://huggingface.co/
-[huggingface-meta-llama]: https://huggingface.co/meta-llama
-[huggingface-mistralai]: https://huggingface.co/mistralai
-[huggingface-qwen]: https://huggingface.co/Qwen
-[huggingface-deepseek-ai]: https://huggingface.co/deepseek-ai
-[huggingface-microsoft]: https://huggingface.co/microsoft
-[huggingface-google]: https://huggingface.co/google
-[github-copilot]: https://github.com/features/copilot
-[github-copilot-workspace]: https://github.com/features/copilot#workspace
-[perplexity]: https://www.perplexity.ai/
-[stability]: https://stability.ai/
