@@ -74,7 +74,7 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 | Name | Parameters | License | Best For |
 |------|-----------|---------|----------|
 | [Llama 3.1][huggingface-meta-llama] | 8B, 70B, 405B | Llama 3.1 Community | General purpose |
-| [Llama 3.2 Vision][huggingface-meta-llama] | 11B, 90B | Llama 3.1 Community | Multimodal |
+| [Llama 3.2 Vision][huggingface-meta-llama] | 11B, 90B | Llama 3.2 Community License | Multimodal |
 | [Mistral Large 2][huggingface-mistralai] | 123B | Apache 2.0 | Reasoning, code |
 | [Mixtral 8x22B][huggingface-mistralai] | 141B (39B active) | Apache 2.0 | Efficient MoE |
 | [Qwen 2.5][huggingface-qwen] | 0.5B - 72B | Apache 2.0 | Multilingual, code |
