@@ -22,7 +22,7 @@ Examples of behavior that contributes to a positive environment:
 Examples of unacceptable behavior:
 
 * The use of sexualized language or imagery, and sexual attention or advances of any kind
-* Trolling, insulting or derogatory comments, and personal or political attacks
+* Trolling, demeaning or derogatory comments, and personal or political attacks
 * Public or private harassment
 * Publishing others' private information without explicit permission
 * Other conduct which could reasonably be considered inappropriate in a professional setting
