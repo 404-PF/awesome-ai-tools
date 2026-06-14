@@ -396,9 +396,8 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 | [Guardrails AI](https://www.guardrailsai.com/) | Output validation | Apache 2.0 |
 | [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) | Conversational safety | Apache 2.0 |
 | [Lakera Guard](https://www.lakera.ai/) | AI security platform | Proprietary |
-| [Rebuff](https://github.com/withrebuff/rebuff) | Prompt injection detection | MIT |
+| [Rebuff](https://github.com/protectai/rebuff) | Prompt injection detection | MIT |
 | [Llama Guard][huggingface-meta-llama] | Safety classifier | Llama Community |
-| [Aegis](https://github.com/NVIDIA/aegis) | Content safety | Apache 2.0 |
 | [Moderate Content](https://moderatecontent.com/) | Content moderation API | Proprietary |
 
 ---
