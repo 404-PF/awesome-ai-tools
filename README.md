@@ -413,7 +413,7 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 | [Sweep](https://github.com/sweepai/sweep) | AI junior dev | Apache 2.0 |
 | [Devon](https://github.com/entropy-research/Devon) | Open-source AI dev | AGPL-3.0 |
 | [Adept](https://www.adept.ai/) | AI actions model | Proprietary |
-| [MultiOn](https://multion.ai/) | Browser AI agent | Proprietary |
+| [MultiOn](https://www.theagi.company/) | Browser AI agent | Proprietary |
 | [WebPilot](https://webpilot.ai/) | Web browsing AI | Open |
 | [Dust](https://dust.tt/) | AI workspace | Proprietary |
 | [Mem](https://mem.ai/) | AI note-taking | Proprietary |
