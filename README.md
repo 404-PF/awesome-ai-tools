@@ -363,7 +363,7 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 | [Anthropic Courses](https://github.com/anthropics/courses) | Prompt engineering, etc. (Free) | - |
 | [Prompt Engineering Guide](https://www.promptingguide.ai/) | Comprehensive guide (Free) | - |
 | [LangChain Academy](https://academy.langchain.com/) | Agent development (Free) | - |
-| [Full Stack Deep Learning](https://fullstackdeeplearning.com/) | Production ML (Free) | - |
+| [Full-Stack Deep Learning](https://fullstackdeeplearning.com/) | Production ML (Free) | - |
 
 ---
 
