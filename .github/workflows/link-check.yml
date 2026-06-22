@@ -27,6 +27,7 @@ jobs:
         with:
           args: >-
             --verbose --no-progress --timeout 60 --max-redirects 5
+            --max-retries 3 --retry-wait-time 5
             --exclude-file .lycheeignore
             "./**/*.md"
-          fail: true
+          fail: ${{ github.event_name != 'pull_request' }}

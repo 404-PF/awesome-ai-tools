@@ -1,18 +1,14 @@
-https://lobehub.com/.*
-https://academy.langchain.com/.*
+# Sites that require authentication or block automated checks
 https://chat.openai.com/.*
 https://claude.ai/.*
+https://platform.deepseek.com/.*
 https://creator.nightcafe.studio/.*
 https://gamma.app/.*
 https://ideogram.ai/.*
 https://leonardo.ai/.*
 https://magnific.ai/.*
-https://openai.com/.*
+https://www.midjourney.com/.*
 https://pearai.com/.*
-https://platform.deepseek.com/.*
 https://play.ht/.*
 https://www.adept.ai/.*
-https://www.deeplearning.ai/.*
-https://www.midjourney.com/.*
 https://www.perplexity.ai/.*
-https://milvus.io/.*
