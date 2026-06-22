@@ -22,6 +22,7 @@ jobs:
         with:
           args: >-
             --verbose --no-progress --timeout 30 --max-redirects 5
+            --accept 429
             --exclude "https://academy\\.langchain\\.com/.*"
             --exclude "https://chat\\.openai\\.com/.*"
             --exclude "https://claude\\.ai/.*"
