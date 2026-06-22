@@ -22,7 +22,6 @@ jobs:
         with:
           args: >-
             --verbose --no-progress --timeout 60 --max-redirects 5
-            --retry 3
             --exclude "https://academy\\.langchain\\.com/.*"
             --exclude "https://chat\\.openai\\.com/.*"
             --exclude "https://claude\\.ai/.*"
@@ -42,4 +41,3 @@ jobs:
             --exclude "https://milvus\\.io/.*"
             "./**/*.md"
           fail: true
-          retry: 3
