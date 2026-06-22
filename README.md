@@ -129,8 +129,8 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 | [Cody](https://sourcegraph.com/cody) | AI code assistant by Sourcegraph (VS Code, JetBrains) | Proprietary |
 | [Amazon Q](https://aws.amazon.com/q/) | AWS AI assistant (CLI, IDE) | Proprietary |
 | [JetBrains AI](https://www.jetbrains.com/ai/) | Native AI in IntelliJ | Proprietary |
-| [PearAI](https://pearai.com/) | Open-source AI code editor | Open source |
-| [Zed](https://zed.dev/) | AI-assisted editor | GPL-3.0 |
+| [PearAI](https://pearai.com/) | Open-source AI code editor | No license |
+| [Zed](https://zed.dev/) | AI-assisted editor | GPL-3.0 / Apache 2.0 |
 
 ---
 
@@ -295,7 +295,7 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 | [text-generation-webui](https://github.com/oobabooga/text-generation-webui) | Gradio UI for LLMs | AGPL-3.0 |
 | [KoboldCpp](https://github.com/LostRuins/koboldcpp) | GGUF inference engine | AGPL-3.0 |
 | [GPT4All](https://www.nomic.ai/gpt4all) | Desktop LLM chatbot | GPL-3.0 |
-| [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter) | Natural language coding | MIT |
+| [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter) | Natural language coding | Apache 2.0 |
 | [Anything LLM](https://github.com/Mintplex-Labs/anything-llm) | All-in-one AI desktop | MIT |
 
 ---
