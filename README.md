@@ -77,7 +77,7 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 | [AWS Bedrock](https://aws.amazon.com/bedrock/) | Multi-model marketplace. Token-based | Proprietary |
 | [Azure AI](https://azure.microsoft.com/ai) | OpenAI + open models. Token-based | Proprietary |
 | [Cloudflare Workers AI](https://workers.cloudflare.com/) | Edge AI inference. Token-based | Proprietary |
-| [Hugging Face][huggingface] | Open model hub + inference. Free/Paid | Open platform |
+| [Hugging Face][huggingface] | Open model hub + inference. Free/Paid | Varies by model |
 
 ---
 
@@ -129,7 +129,7 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 | [Cody](https://sourcegraph.com/cody) | AI code assistant by Sourcegraph (VS Code, JetBrains) | Proprietary |
 | [Amazon Q](https://aws.amazon.com/q/) | AWS AI assistant (CLI, IDE) | Proprietary |
 | [JetBrains AI](https://www.jetbrains.com/ai/) | Native AI in IntelliJ | Proprietary |
-| [PearAI](https://pearai.com/) | Open-source AI code editor | No license |
+| [PearAI](https://pearai.com/) | AI code editor | Proprietary |
 | [Zed](https://zed.dev/) | AI-assisted editor | GPL-3.0 / Apache 2.0 |
 
 ---
@@ -152,7 +152,7 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 | [Haystack](https://haystack.deepset.ai/) | RAG & agent pipelines | Apache 2.0 |
 | [Dify](https://dify.ai/) | Visual agent builder (Python/JS) | Apache 2.0 |
 | [Flowise](https://flowiseai.com/) | Drag-and-drop LLM flows | Apache 2.0 |
-| [n8n](https://n8n.io/) | Workflow automation + AI | Sustainable Use |
+| [n8n](https://n8n.io/) | Workflow automation + AI | Sustainable Use License |
 | [Activepieces](https://activepieces.com/) | Open-source Zapier alternative | MIT |
 
 ---
