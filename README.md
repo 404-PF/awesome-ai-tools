@@ -140,20 +140,20 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 
 | Name | Description | License |
 |------|-------------|---------|
+| [Activepieces](https://activepieces.com/) | Open-source Zapier alternative | MIT |
+| [Anthropic Claude SDK](https://docs.anthropic.com/) | Tool use & computer use (Python, TS) | Proprietary |
+| [AutoGen](https://github.com/microsoft/autogen) | Multi-agent conversations | MIT |
+| [CrewAI](https://www.crewai.com/) | Role-based agent orchestration | MIT |
+| [Dify](https://dify.ai/) | Visual agent builder (Python/JS) | Apache 2.0 |
+| [Flowise](https://flowiseai.com/) | Drag-and-drop LLM flows | Apache 2.0 |
+| [Haystack](https://haystack.deepset.ai/) | RAG & agent pipelines | Apache 2.0 |
 | [LangChain](https://github.com/langchain-ai/langchain) | LLM application framework (Python, JS) | MIT |
 | [LangGraph](https://github.com/langchain-ai/langgraph) | Agent state machines (Python, JS) | MIT |
 | [LlamaIndex](https://www.llamaindex.ai/) | Data framework for LLMs | MIT |
-| [AutoGen](https://github.com/microsoft/autogen) | Multi-agent conversations | MIT |
-| [CrewAI](https://www.crewai.com/) | Role-based agent orchestration | MIT |
-| [Phidata](https://www.phidata.com/) | Build AI assistants | MIT |
-| [OpenAI Swarm](https://github.com/openai/swarm) | Lightweight agent orchestration | MIT |
-| [Anthropic Claude SDK](https://docs.anthropic.com/) | Tool use & computer use (Python, TS) | Proprietary |
-| [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | Microsoft AI orchestration (C#, Python) | MIT |
-| [Haystack](https://haystack.deepset.ai/) | RAG & agent pipelines | Apache 2.0 |
-| [Dify](https://dify.ai/) | Visual agent builder (Python/JS) | Apache 2.0 |
-| [Flowise](https://flowiseai.com/) | Drag-and-drop LLM flows | Apache 2.0 |
 | [n8n](https://n8n.io/) | Workflow automation + AI | Sustainable Use License |
-| [Activepieces](https://activepieces.com/) | Open-source Zapier alternative | MIT |
+| [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) | Lightweight multi-agent framework (Python) | MIT |
+| [Phidata](https://www.phidata.com/) | Build AI assistants | MIT |
+| [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | Microsoft AI orchestration (C#, Python) | MIT |
 
 ---
 
@@ -406,18 +406,18 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 
 | Name | Description | License |
 |------|-------------|---------|
+| [Adept](https://www.adept.ai/) | Enterprise agentic AI platform | Proprietary |
 | [Bolt.new](https://bolt.new/) | AI full-stack builder | Proprietary |
-| [v0](https://v0.dev/) | AI UI generator | Proprietary |
-| [Sweep](https://github.com/sweepai/sweep) | AI junior dev | Apache 2.0 |
 | [Devon](https://github.com/entropy-research/Devon) | Open-source AI dev | AGPL-3.0 |
-| [Adept](https://www.adept.ai/) | AI actions model | Proprietary |
-| [MultiOn](https://www.theagi.company/) | Browser AI agent | Proprietary |
-| [WebPilot](https://webpilot.ai/) | Web browsing AI | Open |
 | [Dust](https://dust.tt/) | AI workspace | Proprietary |
-| [Mem](https://mem.ai/) | AI note-taking | Proprietary |
-| [Granola](https://www.granola.so/) | AI meeting notes | Freemium |
 | [Gamma](https://gamma.app/) | AI presentations | Freemium |
+| [Granola](https://www.granola.so/) | AI meeting notes | Freemium |
+| [Mem](https://mem.ai/) | AI note-taking | Proprietary |
+| [MultiOn](https://www.theagi.company/) | Browser AI agent | Proprietary |
 | [Napkin](https://napkin.ai/) | AI diagrams | Freemium |
+| [Sweep](https://github.com/sweepai/sweep) | AI junior dev | Apache 2.0 |
+| [v0](https://v0.dev/) | AI UI generator | Proprietary |
+| [WebPilot](https://webpilot.ai/) | Web browsing AI | Open |
 
 ---
 
