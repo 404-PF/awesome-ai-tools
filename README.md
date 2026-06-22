@@ -62,12 +62,12 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 
 | Name | Description | License |
 |------|-------------|---------|
-| [OpenAI](https://openai.com/api/) | GPT-4o, GPT-4.5, o1, o3 series. Token-based pricing | Proprietary |
-| [Anthropic](https://console.anthropic.com/) | Claude 3.5 Sonnet, Claude 3.5 Haiku, Opus. Token-based | Proprietary |
-| [Google Gemini](https://ai.google.dev/) | Gemini 2.0, Gemini Ultra. Token-based | Proprietary |
+| [OpenAI](https://openai.com/api/) | GPT-4o, GPT-4.1, o3, o4-mini. Token-based pricing | Proprietary |
+| [Anthropic](https://console.anthropic.com/) | Claude Sonnet 4, Haiku 4, Opus 4. Token-based | Proprietary |
+| [Google Gemini](https://ai.google.dev/) | Gemini 2.5 Pro, Gemini 2.5 Flash. Token-based | Proprietary |
 | [Mistral AI](https://mistral.ai/) | Mistral Large, Medium, Small. Token-based | Apache 2.0 (open models) |
 | [DeepSeek](https://platform.deepseek.com/) | DeepSeek-V3, DeepSeek-R1. Token-based | MIT (open models) |
-| [xAI](https://x.ai/) | Grok-2, Grok-3. Token-based | Proprietary |
+| [xAI](https://x.ai/) | Grok 3, Grok 3 Mini. Token-based | Proprietary |
 | [Groq](https://groq.com/) | Ultra-fast LPU inference. Token-based | Proprietary |
 | [Together AI](https://together.ai/) | Open-source model hosting. Token-based | Proprietary |
 | [Replicate](https://replicate.com/) | Run any model via API. Per-second pricing | Proprietary |
@@ -116,20 +116,20 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 
 | Name | Description | License |
 |------|-------------|---------|
-| [GitHub Copilot][github-copilot] | AI pair programmer (VS Code, JetBrains, CLI) | Proprietary |
-| [Cursor](https://cursor.sh/) | AI-first code editor (Mac/Win/Linux) | Proprietary |
-| [Windsurf](https://windsurf.com/) | AI-native IDE with Cascade | Proprietary |
-| [Continue](https://continue.dev/) | Open-source AI code assistant (VS Code, JetBrains) | Apache 2.0 |
-| [Cline](https://github.com/cline/cline) | Autonomous coding agent (VS Code) | Apache 2.0 |
 | [Aider](https://aider.chat/) | AI pair programming in terminal | Apache 2.0 |
-| [Void](https://voideditor.com/) | Open-source Cursor alternative | AGPL-3.0 |
-| [Roo Code](https://roocode.com/) | AI coding agent (VS Code) | Apache 2.0 |
-| [Codeium](https://codeium.com/) | Free AI code completion (Multi-IDE) | Proprietary |
-| [Tabnine](https://www.tabnine.com/) | Code completion & chat (Multi-IDE) | Proprietary |
-| [Cody](https://sourcegraph.com/cody) | AI code assistant by Sourcegraph (VS Code, JetBrains) | Proprietary |
 | [Amazon Q](https://aws.amazon.com/q/) | AWS AI assistant (CLI, IDE) | Proprietary |
+| [Cline](https://github.com/cline/cline) | Autonomous coding agent (VS Code) | Apache 2.0 |
+| [Codeium](https://codeium.com/) | Free AI code completion (Multi-IDE) | Proprietary |
+| [Cody](https://sourcegraph.com/cody) | AI code assistant by Sourcegraph (VS Code, JetBrains) | Proprietary |
+| [Continue](https://continue.dev/) | Open-source AI code assistant (VS Code, JetBrains) | Apache 2.0 |
+| [Cursor](https://cursor.sh/) | AI-first code editor (Mac/Win/Linux) | Proprietary |
+| [GitHub Copilot][github-copilot] | AI pair programmer (VS Code, JetBrains, CLI) | Proprietary |
 | [JetBrains AI](https://www.jetbrains.com/ai/) | Native AI in IntelliJ | Proprietary |
 | [PearAI](https://pearai.com/) | AI code editor | Proprietary |
+| [Roo Code](https://roocode.com/) | AI coding agent (VS Code) | Apache 2.0 |
+| [Tabnine](https://www.tabnine.com/) | Code completion & chat (Multi-IDE) | Proprietary |
+| [Void](https://voideditor.com/) | Open-source Cursor alternative | AGPL-3.0 |
+| [Windsurf](https://windsurf.com/) | AI-native IDE with Cascade | Proprietary |
 | [Zed](https://zed.dev/) | AI-assisted editor | GPL-3.0 / Apache 2.0 |
 
 ---
@@ -417,7 +417,7 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 | [Napkin](https://napkin.ai/) | AI diagrams | Freemium |
 | [Sweep](https://github.com/sweepai/sweep) | AI junior dev | Apache 2.0 |
 | [v0](https://v0.dev/) | AI UI generator | Proprietary |
-| [WebPilot](https://webpilot.ai/) | Web browsing AI | Open |
+| [WebPilot](https://webpilot.ai/) | Web browsing AI | Proprietary |
 
 ---
 

@@ -23,14 +23,24 @@ Your tool should:
 
 ## Categories
 
-- **APIs & Providers**: Commercial API services
+- **LLM APIs & Providers**: Commercial API services
 - **Open-Source LLMs**: Models with open weights
-- **Code Assistants**: IDE integrations and tools
-- **Agents**: Autonomous AI systems
-- **RAG & Vector DB**: Search and retrieval
-- **Image/Video/Audio**: Creative AI
-- **Local AI**: Self-hosted solutions
-- **Frameworks**: Core libraries
+- **AI Code Assistants**: IDE integrations and tools
+- **AI Agents & Orchestration**: Autonomous AI systems
+- **RAG & Vector Databases**: Search and retrieval
+- **AI Image Generation**: Image creation tools
+- **AI Video Generation**: Video creation tools
+- **AI Audio & Voice**: TTS, STT, music generation
+- **AI Writing & Content**: Writing and content tools
+- **AI Chatbots & Assistants**: Conversational AI interfaces
+- **Local & Self-Hosted AI**: Run models on your own hardware
+- **AI Data & Analytics**: Data analysis and BI
+- **AI for DevOps & MLOps**: DevOps and ML operations
+- **AI Frameworks & Libraries**: Core libraries
+- **AI Learning & Education**: Courses and tutorials
+- **AI Monitoring & Observability**: Tracing and evaluation
+- **AI Safety & Ethics**: Responsible AI tools
+- **Miscellaneous**: Other notable tools
 
 ## Style Guide
 
