@@ -22,6 +22,7 @@ jobs:
         with:
           args: >-
             --verbose --no-progress --timeout 60 --max-redirects 5
+            --exclude "https://lobehub\\.com/.*"
             --exclude "https://academy\\.langchain\\.com/.*"
             --exclude "https://chat\\.openai\\.com/.*"
             --exclude "https://claude\\.ai/.*"
