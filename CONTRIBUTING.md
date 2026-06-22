@@ -6,7 +6,7 @@ Thank you for considering contributing!
 
 1. **Fork** the repository
 2. Add your tool to the appropriate category
-3. Follow the format: `| [Name](URL) | Description | License/Access |`
+3. Follow the format: `| [Name](URL) | Description | License |`
 4. **Alphabetical order** within categories
 5. Ensure the link works
 6. Submit a **pull request**

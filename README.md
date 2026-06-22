@@ -10,8 +10,6 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 
-*Last updated: June 2026*
-
 </div>
 
 [contributing]: CONTRIBUTING.md
@@ -62,24 +60,24 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 
 *Commercial API providers for large language models.*
 
-| Name | Description | Pricing | License |
-|------|-------------|---------|---------|
-| [OpenAI](https://openai.com/api/) | GPT-4o, GPT-4.5, o1, o3 series | Token-based | Proprietary |
-| [Anthropic](https://console.anthropic.com/) | Claude 3.5 Sonnet, Claude 3.5 Haiku, Opus | Token-based | Proprietary |
-| [Google Gemini](https://ai.google.dev/) | Gemini 2.0, Gemini Ultra | Token-based | Proprietary |
-| [Mistral AI](https://mistral.ai/) | Mistral Large, Medium, Small | Token-based | Apache 2.0 (open models) |
-| [DeepSeek](https://platform.deepseek.com/) | DeepSeek-V3, DeepSeek-R1 | Token-based | MIT (open models) |
-| [xAI](https://x.ai/) | Grok-2, Grok-3 | Token-based | Proprietary |
-| [Groq](https://groq.com/) | Ultra-fast LPU inference | Token-based | Proprietary |
-| [Together AI](https://together.ai/) | Open-source model hosting | Token-based | Proprietary |
-| [Replicate](https://replicate.com/) | Run any model via API | Per-second | Proprietary |
-| [Fireworks AI](https://fireworks.ai/) | Fast inference platform | Token-based | Proprietary |
-| [perplexity] | AI search + API | Token-based | Proprietary |
-| [Cohere](https://cohere.com/) | Enterprise NLP APIs | Token-based | Proprietary |
-| [AWS Bedrock](https://aws.amazon.com/bedrock/) | Multi-model marketplace | Token-based | Proprietary |
-| [Azure AI](https://azure.microsoft.com/ai) | OpenAI + open models | Token-based | Proprietary |
-| [Cloudflare Workers AI](https://workers.cloudflare.com/) | Edge AI inference | Token-based | Proprietary |
-| [Hugging Face][huggingface] | Open model hub + inference | Free/Paid | Open platform |
+| Name | Description | License |
+|------|-------------|---------|
+| [OpenAI](https://openai.com/api/) | GPT-4o, GPT-4.5, o1, o3 series. Token-based pricing | Proprietary |
+| [Anthropic](https://console.anthropic.com/) | Claude 3.5 Sonnet, Claude 3.5 Haiku, Opus. Token-based | Proprietary |
+| [Google Gemini](https://ai.google.dev/) | Gemini 2.0, Gemini Ultra. Token-based | Proprietary |
+| [Mistral AI](https://mistral.ai/) | Mistral Large, Medium, Small. Token-based | Apache 2.0 (open models) |
+| [DeepSeek](https://platform.deepseek.com/) | DeepSeek-V3, DeepSeek-R1. Token-based | MIT (open models) |
+| [xAI](https://x.ai/) | Grok-2, Grok-3. Token-based | Proprietary |
+| [Groq](https://groq.com/) | Ultra-fast LPU inference. Token-based | Proprietary |
+| [Together AI](https://together.ai/) | Open-source model hosting. Token-based | Proprietary |
+| [Replicate](https://replicate.com/) | Run any model via API. Per-second pricing | Proprietary |
+| [Fireworks AI](https://fireworks.ai/) | Fast inference platform. Token-based | Proprietary |
+| [perplexity] | AI search + API. Token-based | Proprietary |
+| [Cohere](https://cohere.com/) | Enterprise NLP APIs. Token-based | Proprietary |
+| [AWS Bedrock](https://aws.amazon.com/bedrock/) | Multi-model marketplace. Token-based | Proprietary |
+| [Azure AI](https://azure.microsoft.com/ai) | OpenAI + open models. Token-based | Proprietary |
+| [Cloudflare Workers AI](https://workers.cloudflare.com/) | Edge AI inference. Token-based | Proprietary |
+| [Hugging Face][huggingface] | Open model hub + inference. Free/Paid | Open platform |
 
 ---
 
@@ -87,28 +85,28 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 
 *Language models with open weights you can self-host.*
 
-| Name | Parameters | License | Best For |
-|------|-----------|---------|----------|
-| [Llama 3.1][huggingface-meta-llama] | 8B, 70B, 405B | Llama 3.1 Community | General purpose |
-| [Llama 3.2 Vision][huggingface-meta-llama] | 11B, 90B | Llama 3.2 Community License | Multimodal |
-| [Mistral Large 2][huggingface-mistralai] | 123B | Apache 2.0 | Reasoning, code |
-| [Mixtral 8x22B][huggingface-mistralai] | 141B (39B active) | Apache 2.0 | Efficient MoE |
-| [Qwen 2.5][huggingface-qwen] | 0.5B - 72B | Apache 2.0 | Multilingual, code |
-| [Qwen 2.5 Coder][huggingface-qwen] | 7B, 32B | Apache 2.0 | Code generation |
-| [DeepSeek-V3][huggingface-deepseek-ai] | 671B (37B active) | MIT | Reasoning, coding |
-| [DeepSeek-R1][huggingface-deepseek-ai] | 1.5B - 671B | MIT | Chain-of-thought |
-| [Phi-3.5][huggingface-microsoft] | 3.8B, 14B | MIT | Small, efficient |
-| [Phi-4][huggingface-microsoft] | 14B | MIT | Reasoning, math |
-| [Gemma 2][huggingface-google] | 2B, 9B, 27B | Gemma License | Lightweight |
-| [Gemma 3][huggingface-google] | 1B - 27B | Gemma License | Multimodal |
-| [Command R+](https://huggingface.co/CohereForAI) | 104B | CC-BY-NC | RAG, agents |
-| [Yi-1.5](https://huggingface.co/01-ai) | 6B - 34B | Apache 2.0 | Multilingual |
-| [InternLM 2.5](https://huggingface.co/internlm) | 7B, 20B | Apache 2.0 | Chinese, reasoning |
-| [OLMo 2](https://huggingface.co/allenai) | 1B, 7B | Apache 2.0 | Research, fully open |
-| [SmolLM2](https://huggingface.co/HuggingFaceTB) | 135M - 1.7B | Apache 2.0 | Tiny, edge devices |
-| [Falcon 3](https://huggingface.co/tiiuae) | 1B - 40B | Apache 2.0 | General purpose |
-| [Arctic](https://huggingface.co/Snowflake) | 480B (17B active) | Apache 2.0 | Enterprise, MoE |
-| [Dbrx](https://huggingface.co/databricks) | 132B (32B active) | DBRX License | Enterprise, MoE |
+| Name | Parameters | License |
+|------|-----------|---------|
+| [Llama 3.1][huggingface-meta-llama] | 8B, 70B, 405B | Llama 3.1 Community |
+| [Llama 3.2 Vision][huggingface-meta-llama] | 11B, 90B | Llama 3.2 Community License |
+| [Mistral Large 2][huggingface-mistralai] | 123B | Apache 2.0 |
+| [Mixtral 8x22B][huggingface-mistralai] | 141B (39B active) | Apache 2.0 |
+| [Qwen 2.5][huggingface-qwen] | 0.5B - 72B | Apache 2.0 |
+| [Qwen 2.5 Coder][huggingface-qwen] | 7B, 32B | Apache 2.0 |
+| [DeepSeek-V3][huggingface-deepseek-ai] | 671B (37B active) | MIT |
+| [DeepSeek-R1][huggingface-deepseek-ai] | 1.5B - 671B | MIT |
+| [Phi-3.5][huggingface-microsoft] | 3.8B, 14B | MIT |
+| [Phi-4][huggingface-microsoft] | 14B | MIT |
+| [Gemma 2][huggingface-google] | 2B, 9B, 27B | Gemma License |
+| [Gemma 3][huggingface-google] | 1B - 27B | Gemma License |
+| [Command R+](https://huggingface.co/CohereForAI) | 104B | CC-BY-NC |
+| [Yi-1.5](https://huggingface.co/01-ai) | 6B - 34B | Apache 2.0 |
+| [InternLM 2.5](https://huggingface.co/internlm) | 7B, 20B | Apache 2.0 |
+| [OLMo 2](https://huggingface.co/allenai) | 1B, 7B | Apache 2.0 |
+| [SmolLM2](https://huggingface.co/HuggingFaceTB) | 135M - 1.7B | Apache 2.0 |
+| [Falcon 3](https://huggingface.co/tiiuae) | 1B - 40B | Apache 2.0 |
+| [Arctic](https://huggingface.co/Snowflake) | 480B (17B active) | Apache 2.0 |
+| [DBRX](https://huggingface.co/databricks) | 132B (32B active) | DBRX License |
 
 ---
 
@@ -116,23 +114,23 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 
 *Tools that help you write, understand, and debug code.*
 
-| Name | Description | Platform | License |
-|------|-------------|----------|---------|
-| [GitHub Copilot][github-copilot] | AI pair programmer | VS Code, JetBrains, CLI | Proprietary |
-| [Cursor](https://cursor.sh/) | AI-first code editor | Desktop (Mac/Win/Linux) | Proprietary |
-| [Windsurf](https://windsurf.com/) | AI-native IDE with Cascade | Desktop | Proprietary |
-| [Continue](https://continue.dev/) | Open-source AI code assistant | VS Code, JetBrains | Apache 2.0 |
-| [Cline](https://github.com/cline/cline) | Autonomous coding agent | VS Code extension | Apache 2.0 |
-| [Aider](https://aider.chat/) | AI pair programming in terminal | CLI | Apache 2.0 |
-| [Void](https://voideditor.com/) | Open-source Cursor alternative | Desktop | AGPL-3.0 |
-| [Roo Code](https://roocode.com/) | AI coding agent | VS Code extension | Apache 2.0 |
-| [Codeium](https://codeium.com/) | Free AI code completion | Multi-IDE | Proprietary |
-| [Tabnine](https://www.tabnine.com/) | Code completion & chat | Multi-IDE | Proprietary |
-| [Cody](https://sourcegraph.com/cody) | AI code assistant by Sourcegraph | VS Code, JetBrains | Proprietary |
-| [Amazon Q](https://aws.amazon.com/q/) | AWS AI assistant | CLI, IDE | Proprietary |
-| [JetBrains AI](https://www.jetbrains.com/ai/) | Native AI in IntelliJ | JetBrains IDEs | Proprietary |
-| [PearAI](https://pearai.com/) | Open-source AI code editor | Desktop | Open source |
-| [Zed](https://zed.dev/) | AI-assisted editor | Desktop | GPL-3.0 |
+| Name | Description | License |
+|------|-------------|---------|
+| [GitHub Copilot][github-copilot] | AI pair programmer (VS Code, JetBrains, CLI) | Proprietary |
+| [Cursor](https://cursor.sh/) | AI-first code editor (Mac/Win/Linux) | Proprietary |
+| [Windsurf](https://windsurf.com/) | AI-native IDE with Cascade | Proprietary |
+| [Continue](https://continue.dev/) | Open-source AI code assistant (VS Code, JetBrains) | Apache 2.0 |
+| [Cline](https://github.com/cline/cline) | Autonomous coding agent (VS Code) | Apache 2.0 |
+| [Aider](https://aider.chat/) | AI pair programming in terminal | Apache 2.0 |
+| [Void](https://voideditor.com/) | Open-source Cursor alternative | AGPL-3.0 |
+| [Roo Code](https://roocode.com/) | AI coding agent (VS Code) | Apache 2.0 |
+| [Codeium](https://codeium.com/) | Free AI code completion (Multi-IDE) | Proprietary |
+| [Tabnine](https://www.tabnine.com/) | Code completion & chat (Multi-IDE) | Proprietary |
+| [Cody](https://sourcegraph.com/cody) | AI code assistant by Sourcegraph (VS Code, JetBrains) | Proprietary |
+| [Amazon Q](https://aws.amazon.com/q/) | AWS AI assistant (CLI, IDE) | Proprietary |
+| [JetBrains AI](https://www.jetbrains.com/ai/) | Native AI in IntelliJ | Proprietary |
+| [PearAI](https://pearai.com/) | Open-source AI code editor | Open source |
+| [Zed](https://zed.dev/) | AI-assisted editor | GPL-3.0 |
 
 ---
 
@@ -140,22 +138,22 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 
 *Frameworks for building autonomous AI agents.*
 
-| Name | Description | Language | License |
-|------|-------------|----------|---------|
-| [LangChain](https://github.com/langchain-ai/langchain) | LLM application framework | Python, JS | MIT |
-| [LangGraph](https://github.com/langchain-ai/langgraph) | Agent state machines | Python, JS | MIT |
-| [LlamaIndex](https://www.llamaindex.ai/) | Data framework for LLMs | Python | MIT |
-| [AutoGen](https://github.com/microsoft/autogen) | Multi-agent conversations | Python | MIT |
-| [CrewAI](https://www.crewai.com/) | Role-based agent orchestration | Python | MIT |
-| [Phidata](https://www.phidata.com/) | Build AI assistants | Python | MIT |
-| [OpenAI Swarm](https://github.com/openai/swarm) | Lightweight agent orchestration | Python | MIT |
-| [Anthropic Claude SDK](https://docs.anthropic.com/) | Tool use & computer use | Python, TS | Proprietary |
-| [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | Microsoft AI orchestration | C#, Python | MIT |
-| [Haystack](https://haystack.deepset.ai/) | RAG & agent pipelines | Python | Apache 2.0 |
-| [Dify](https://dify.ai/) | Visual agent builder | Python/JS | Apache 2.0 |
-| [Flowise](https://flowiseai.com/) | Drag-and-drop LLM flows | TypeScript | Apache 2.0 |
-| [n8n](https://n8n.io/) | Workflow automation + AI | TypeScript | Sustainable Use |
-| [Activepieces](https://activepieces.com/) | Open-source Zapier alternative | TypeScript | MIT |
+| Name | Description | License |
+|------|-------------|---------|
+| [LangChain](https://github.com/langchain-ai/langchain) | LLM application framework (Python, JS) | MIT |
+| [LangGraph](https://github.com/langchain-ai/langgraph) | Agent state machines (Python, JS) | MIT |
+| [LlamaIndex](https://www.llamaindex.ai/) | Data framework for LLMs | MIT |
+| [AutoGen](https://github.com/microsoft/autogen) | Multi-agent conversations | MIT |
+| [CrewAI](https://www.crewai.com/) | Role-based agent orchestration | MIT |
+| [Phidata](https://www.phidata.com/) | Build AI assistants | MIT |
+| [OpenAI Swarm](https://github.com/openai/swarm) | Lightweight agent orchestration | MIT |
+| [Anthropic Claude SDK](https://docs.anthropic.com/) | Tool use & computer use (Python, TS) | Proprietary |
+| [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | Microsoft AI orchestration (C#, Python) | MIT |
+| [Haystack](https://haystack.deepset.ai/) | RAG & agent pipelines | Apache 2.0 |
+| [Dify](https://dify.ai/) | Visual agent builder (Python/JS) | Apache 2.0 |
+| [Flowise](https://flowiseai.com/) | Drag-and-drop LLM flows | Apache 2.0 |
+| [n8n](https://n8n.io/) | Workflow automation + AI | Sustainable Use |
+| [Activepieces](https://activepieces.com/) | Open-source Zapier alternative | MIT |
 
 ---
 
@@ -185,20 +183,20 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 
 *Create images, illustrations, and art with AI.*
 
-| Name | Description | Access | License |
-|------|-------------|--------|---------|
-| [Stable Diffusion 3.5][stability] | Open-source image generation | Self-host/API | Stability AI Community |
-| [FLUX](https://blackforestlabs.ai/) | High-quality open model | Self-host | Apache 2.0 (dev) |
-| [ComfyUI](https://github.com/comfyanonymous/ComfyUI) | Node-based SD workflow | Self-host | GPL-3.0 |
-| [Fooocus](https://github.com/lllyasviel/Fooocus) | Simplified SD interface | Self-host | GPL-3.0 |
-| [Automatic1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | Popular SD web UI | Self-host | AGPL-3.0 |
-| [Midjourney](https://www.midjourney.com/) | High-quality AI art | Discord/Web | Proprietary |
-| [DALL·E 3](https://openai.com/dall-e-3) | OpenAI image generator | API | Proprietary |
-| [Leonardo.ai](https://leonardo.ai/) | AI creative suite | Web | Proprietary |
-| [Ideogram](https://ideogram.ai/) | Text-in-image specialist | Web | Proprietary |
-| [Playground](https://www.playground.com/) | AI image editor | Web | Proprietary |
-| [Magnific](https://magnific.ai/) | AI upscaler & enhancer | Web | Proprietary |
-| [NightCafe](https://creator.nightcafe.studio/) | AI art generator | Web | Proprietary |
+| Name | Description | License |
+|------|-------------|---------|
+| [Stable Diffusion 3.5][stability] | Open-source image generation (self-host/API) | Stability AI Community |
+| [FLUX](https://blackforestlabs.ai/) | High-quality open model (self-host) | Apache 2.0 (dev) |
+| [ComfyUI](https://github.com/comfyanonymous/ComfyUI) | Node-based SD workflow (self-host) | GPL-3.0 |
+| [Fooocus](https://github.com/lllyasviel/Fooocus) | Simplified SD interface (self-host) | GPL-3.0 |
+| [Automatic1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | Popular SD web UI (self-host) | AGPL-3.0 |
+| [Midjourney](https://www.midjourney.com/) | High-quality AI art (Discord/Web) | Proprietary |
+| [DALL·E 3](https://openai.com/dall-e-3) | OpenAI image generator (API) | Proprietary |
+| [Leonardo.ai](https://leonardo.ai/) | AI creative suite (Web) | Proprietary |
+| [Ideogram](https://ideogram.ai/) | Text-in-image specialist (Web) | Proprietary |
+| [Playground](https://www.playground.com/) | AI image editor (Web) | Proprietary |
+| [Magnific](https://magnific.ai/) | AI upscaler & enhancer (Web) | Proprietary |
+| [NightCafe](https://creator.nightcafe.studio/) | AI art generator (Web) | Proprietary |
 
 ---
 
@@ -206,20 +204,20 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 
 *Generate and edit videos with AI.*
 
-| Name | Description | Access | License |
-|------|-------------|--------|---------|
-| [Runway](https://runwayml.com/) | Gen-3 Alpha, video editing | Web | Proprietary |
-| [Kling](https://klingai.com/) | High-quality video gen | Web | Proprietary |
-| [Pika](https://pika.art/) | Text-to-video, effects | Web | Proprietary |
-| [Sora](https://openai.com/sora) | OpenAI video model | Web | Proprietary |
-| [Luma Dream Machine](https://lumalabs.ai/) | Fast video generation | Web | Proprietary |
-| [Stable Video][stability] | Open-source video diffusion | Self-host | Stability Community |
-| [CogVideo](https://github.com/THUDM/CogVideo) | Open-source text-to-video | Self-host | Apache 2.0 |
-| [Mochi](https://github.com/genmoai/mochi) | Open video generation | Self-host | Apache 2.0 |
-| [HeyGen](https://www.heygen.com/) | AI avatar videos | Web | Proprietary |
-| [Synthesia](https://www.synthesia.io/) | AI video presenters | Web | Proprietary |
-| [Descript](https://www.descript.com/) | AI video editing | Desktop | Proprietary |
-| [CapCut](https://www.capcut.com/) | AI video editor | Web/Desktop | Proprietary |
+| Name | Description | License |
+|------|-------------|---------|
+| [Runway](https://runwayml.com/) | Gen-3 Alpha, video editing (Web) | Proprietary |
+| [Kling](https://klingai.com/) | High-quality video gen (Web) | Proprietary |
+| [Pika](https://pika.art/) | Text-to-video, effects (Web) | Proprietary |
+| [Sora](https://openai.com/sora) | OpenAI video model (Web) | Proprietary |
+| [Luma Dream Machine](https://lumalabs.ai/) | Fast video generation (Web) | Proprietary |
+| [Stable Video][stability] | Open-source video diffusion (self-host) | Stability Community |
+| [CogVideo](https://github.com/THUDM/CogVideo) | Open-source text-to-video (self-host) | Apache 2.0 |
+| [Mochi](https://github.com/genmoai/mochi) | Open video generation (self-host) | Apache 2.0 |
+| [HeyGen](https://www.heygen.com/) | AI avatar videos (Web) | Proprietary |
+| [Synthesia](https://www.synthesia.io/) | AI video presenters (Web) | Proprietary |
+| [Descript](https://www.descript.com/) | AI video editing (Desktop) | Proprietary |
+| [CapCut](https://www.capcut.com/) | AI video editor (Web/Desktop) | Proprietary |
 
 ---
 
@@ -249,18 +247,18 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 
 *Tools for writing, editing, and content creation.*
 
-| Name | Description | Access | License |
-|------|-------------|--------|---------|
-| [Jasper](https://www.jasper.ai/) | Marketing content AI | Web | Proprietary |
-| [Copy.ai](https://www.copy.ai/) | Sales & marketing copy | Web | Proprietary |
-| [Notion AI](https://www.notion.so/product/ai) | AI within Notion | Web | Proprietary |
-| [Grammarly](https://www.grammarly.com/) | AI writing assistant | Multi-platform | Proprietary |
-| [Hemingway](https://hemingwayapp.com/) | Readability editor | Web | Freemium |
-| [Sudowrite](https://www.sudowrite.com/) | AI for fiction writers | Web | Proprietary |
-| [NovelAI](https://novelai.net/) | AI story generation | Web | Proprietary |
-| [Writesonic](https://writesonic.com/) | Article & ad copywriter | Web | Proprietary |
-| [Surfer SEO](https://surferseo.com/) | AI content optimization | Web | Proprietary |
-| [Wordtune](https://www.wordtune.com/) | AI rewriting tool | Web | Proprietary |
+| Name | Description | License |
+|------|-------------|---------|
+| [Jasper](https://www.jasper.ai/) | Marketing content AI (Web) | Proprietary |
+| [Copy.ai](https://www.copy.ai/) | Sales & marketing copy (Web) | Proprietary |
+| [Notion AI](https://www.notion.so/product/ai) | AI within Notion | Proprietary |
+| [Grammarly](https://www.grammarly.com/) | AI writing assistant (Multi-platform) | Proprietary |
+| [Hemingway](https://hemingwayapp.com/) | Readability editor (Web) | Freemium |
+| [Sudowrite](https://www.sudowrite.com/) | AI for fiction writers (Web) | Proprietary |
+| [NovelAI](https://novelai.net/) | AI story generation (Web) | Proprietary |
+| [Writesonic](https://writesonic.com/) | Article & ad copywriter (Web) | Proprietary |
+| [Surfer SEO](https://surferseo.com/) | AI content optimization (Web) | Proprietary |
+| [Wordtune](https://www.wordtune.com/) | AI rewriting tool (Web) | Proprietary |
 
 ---
 
@@ -268,18 +266,18 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 
 *Conversational AI interfaces and platforms.*
 
-| Name | Description | Access | License |
-|------|-------------|--------|---------|
-| [ChatGPT](https://chat.openai.com/) | OpenAI's chatbot | Web/App | Proprietary |
-| [Claude](https://claude.ai/) | Anthropic's assistant | Web/App | Proprietary |
-| [Gemini](https://gemini.google.com/) | Google AI assistant | Web/App | Proprietary |
-| [perplexity] | AI search engine | Web/App | Proprietary |
-| [Poe](https://poe.com/) | Multi-model chatbot | Web/App | Proprietary |
-| [Open WebUI](https://github.com/open-webui/open-webui) | Self-hosted ChatGPT UI | Self-host | BSD-3-Clause |
-| [LibreChat](https://github.com/danny-avila/LibreChat) | Open-source chat UI | Self-host | MIT |
-| [LobeChat](https://lobehub.com/) | Extensible chat framework | Self-host | Apache 2.0 |
-| [Jan](https://jan.ai/) | Offline AI assistant | Desktop | AGPL-3.0 |
-| [Chatbox](https://chatboxai.app/) | Desktop AI client | Desktop | MIT |
+| Name | Description | License |
+|------|-------------|---------|
+| [ChatGPT](https://chat.openai.com/) | OpenAI's chatbot (Web/App) | Proprietary |
+| [Claude](https://claude.ai/) | Anthropic's assistant (Web/App) | Proprietary |
+| [Gemini](https://gemini.google.com/) | Google AI assistant (Web/App) | Proprietary |
+| [perplexity] | AI search engine (Web/App) | Proprietary |
+| [Poe](https://poe.com/) | Multi-model chatbot (Web/App) | Proprietary |
+| [Open WebUI](https://github.com/open-webui/open-webui) | Self-hosted ChatGPT UI | BSD-3-Clause |
+| [LibreChat](https://github.com/danny-avila/LibreChat) | Open-source chat UI (self-host) | MIT |
+| [LobeChat](https://lobehub.com/) | Extensible chat framework (self-host) | Apache 2.0 |
+| [Jan](https://jan.ai/) | Offline AI assistant (Desktop) | AGPL-3.0 |
+| [Chatbox](https://chatboxai.app/) | Desktop AI client | MIT |
 
 ---
 
@@ -313,7 +311,7 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 | [Rows](https://rows.com/) | AI spreadsheet | Freemium |
 | [PandasAI](https://github.com/sinaptik-ai/pandas-ai) | Chat with your data | GPL-3.0 |
 | [Vanna](https://vanna.ai/) | Text-to-SQL | MIT |
-| [AthenaGPT](https://github.com/Dataherald/dataherald) | Text-to-SQL | Apache 2.0 |
+| [Dataherald](https://github.com/Dataherald/dataherald) | Text-to-SQL | Apache 2.0 |
 
 ---
 
@@ -356,16 +354,16 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 
 *Courses, tutorials, and resources to learn AI.*
 
-| Name | Description | Access |
-|------|-------------|--------|
-| [Fast.ai](https://www.fast.ai/) | Practical deep learning course | Free |
-| [Andrew Ng's Courses](https://www.deeplearning.ai/) | ML & AI specializations | Free/Paid |
-| [Hugging Face Course](https://huggingface.co/learn) | NLP with transformers | Free |
-| [Google ML Crash Course](https://developers.google.com/machine-learning/crash-course) | ML fundamentals | Free |
-| [Anthropic Courses](https://github.com/anthropics/courses) | Prompt engineering, etc. | Free |
-| [Prompt Engineering Guide](https://www.promptingguide.ai/) | Comprehensive guide | Free |
-| [LangChain Academy](https://academy.langchain.com/) | Agent development | Free |
-| [Full Stack Deep Learning](https://fullstackdeeplearning.com/) | Production ML | Free |
+| Name | Description | License |
+|------|-------------|---------|
+| [Fast.ai](https://www.fast.ai/) | Practical deep learning course (Free) | - |
+| [Andrew Ng's Courses](https://www.deeplearning.ai/) | ML & AI specializations (Free/Paid) | - |
+| [Hugging Face Course](https://huggingface.co/learn) | NLP with transformers (Free) | - |
+| [Google ML Crash Course](https://developers.google.com/machine-learning/crash-course) | ML fundamentals (Free) | - |
+| [Anthropic Courses](https://github.com/anthropics/courses) | Prompt engineering, etc. (Free) | - |
+| [Prompt Engineering Guide](https://www.promptingguide.ai/) | Comprehensive guide (Free) | - |
+| [LangChain Academy](https://academy.langchain.com/) | Agent development (Free) | - |
+| [Full Stack Deep Learning](https://fullstackdeeplearning.com/) | Production ML (Free) | - |
 
 ---
 

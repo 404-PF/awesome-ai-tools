@@ -6,7 +6,7 @@
 **URL:**
 **Category:**
 **Description:**
-**License/Access:**
+**License:**
 
 ## Checklist
 
