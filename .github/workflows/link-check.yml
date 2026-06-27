@@ -1,0 +1,33 @@
+name: Check Links
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: link-check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          persist-credentials: false
+      - uses: lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411 # v2.8.0
+        with:
+          args: >-
+            --verbose --no-progress --timeout 60 --max-redirects 5
+            --max-retries 3 --retry-wait-time 5
+            --exclude-file .lycheeignore
+            "./**/*.md"
+          fail: ${{ github.event_name == 'pull_request' || github.event_name == 'push' }}
