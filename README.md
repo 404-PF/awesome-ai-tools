@@ -89,7 +89,7 @@ A curated list of remarkable AI tools, platforms, and resources for developers, 
 |------|-----------|---------|
 | [Llama 3.1][huggingface-meta-llama] | 8B, 70B, 405B | Llama 3.1 Community |
 | [Llama 3.2 Vision][huggingface-meta-llama] | 11B, 90B | Llama 3.2 Community License |
-| [Mistral Large 2][huggingface-mistralai] | 123B | Apache 2.0 |
+ [Mistral Large 2][huggingface-mistralai] | 123B | Mistral Research |
 | [Mixtral 8x22B][huggingface-mistralai] | 141B (39B active) | Apache 2.0 |
 | [Qwen 2.5][huggingface-qwen] | 0.5B - 72B | Apache 2.0 |
 | [Qwen 2.5 Coder][huggingface-qwen] | 7B, 32B | Apache 2.0 |
